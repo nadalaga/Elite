@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentmain"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+		android:text="Welcome "
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/txtWelcome" />
+	  <TextView
+        android:id="@+id/lblLatitude"
+        android:layout_below="@id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     
+    
+        android:text="@string/title_home" />
+      <TextView
+        android:id="@+id/lblLongitude"
+ 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    
+    android:layout_below="@+id/lblLatitude"
+        android:text="@string/title_home" />
+	<Button 
+		android:text="Open"
+		android:id="@+id/btnOpenGoogleMap" 
+	android:layout_width="match_parent"
+		 android:layout_below="@+id/lblLongitude"
+		
+	android:layout_height="wrap_content"/>
+        
+
+</RelativeLayout>
